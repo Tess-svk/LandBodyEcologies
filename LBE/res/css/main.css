@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Tajawal:wght@200;300;500&display=swap');
+
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+img {
+    border: 1px solid #FFF;
+}
+
+footer{
+    text-align: center;
+    color: grey;
+    padding-top: 8%;
+    padding-bottom: 20px;
+}
+
+.container-fluid{
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.secondary-font{
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+.full-height-img{
+    border-bottom: 1px solid #FFF;
+    height:800px;
+    width: 100%;
+    background-image: url("../img/lake_b&w.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.solastalgia-full{
+    border-bottom: 1px solid #FFF;
+    height:800px;
+    width: 100%;
+    background-image: url("../img/birds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bee-full{
+    border-bottom: 1px solid #FFF;
+    height:800px;
+    width: 100%;
+    background-image: url("../img/forest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-full{
+    border-bottom: 1px solid #FFF;
+    height:800px;
+    width: 100%;
+    background-image: url("../img/mountain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moto{
+    margin-top: 30%;
+}
+
+.centered {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects{
+    height:500px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.social-media{
+    font-size: 22px;
+}
+
+.about-us{
+    height:500px;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: .5s ease;
+}
+
+.solastalgia{
+    filter: grayscale(100%);
+    transition: .9s ease;
+}
+
+.bee{
+    filter: grayscale(100%);
+    transition: .5s ease;
+}
+
+.about-us:hover{
+    filter: grayscale(0%);
+}
+
+.solastalgia:hover{
+    filter: grayscale(0%);
+}
+
+.bee:hover{
+    filter: grayscale(0%);
+}
+
+/*Links decorations*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a.LBE{
+    text-decoration: none;
+    color: white;
+}
